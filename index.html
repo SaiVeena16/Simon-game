@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <div class="rules">
+      <h2>Hi! Welcome to the Simon Challenge Game</h2>
+      <ol>
+        <li>The goal of the game is to remember and repeat a sequence of flashing buttons or colors.</li>
+        <li>The game starts with a single button or color flashing.</li>
+        <li>The player must click on the same button or color to proceed to the next level.</li>
+        <li>If the player clicks the wrong button or color, the game restarts from the beginning.</li>
+        <li>Each level adds one more button or color to the sequence.</li>
+        <li>The player needs to remember the entire sequence from previous levels to succeed.</li>
+        <li>The player wins by correctly repeating the entire sequence up to the highest level reached.</li>
+      </ol>
+  </div>
+  
+  <h1 id="level-title">Press A Key to Start</h1>
+  <div class="container">
+    <div lass="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+  </div>
+    
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
